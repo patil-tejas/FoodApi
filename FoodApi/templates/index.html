@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food API</title>
+  <link rel="stylesheet" type="text/css" href="../static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="../static/favicon.ico">
+</head>
+<body class="lessblack">
+
+  <nav class="zone black stickytop card">
+      <ul class="main-nav">
+          <li><a href="./">Home</a></li>
+          <li><a href="./#pictures">Pictures</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li class="push"><a href="./contact.html">Contact</a></li>
+  </ul>
+  </nav>
+
+
+  <div class="container ">
+    <h1>The Food Gallery</h1>
+    <p>This website fetches image data from pixabay API and displays random 10 images from the food section.</p>
+  </div>
+  
+  <div id="pictures" class="zone grid-wrapper">
+    {% block content %}{% endblock %}
+    <!-- <div class="box zone"><img src="../static/img/files_2.png"></div>
+    <div class="box zone"><img src="../static/img/server_2_2.png"></div>
+    <div class="box zone"><img src="../static/img/monitor_settings_2.png"></div>
+    <div class="box zone"><img src="../static/img/server_3.png"></div>
+    <div class="box zone"><img src="../static/img/data_storage_2_2.png"></div>
+    <div class="box zone"><img src="../static/img/monitor_coding_2.png"></div>
+    <div class="box zone"><img src="../static/img/desktop_analytics_2.png"></div>
+    <div class="box zone"><img src="../static/img/server_safe_2.png"></div>
+    <div class="box zone"><img src="../static/img/desktop_analytics_2.png"></div>
+    <div class="box zone"><img src="../static/img/server_safe_2.png"></div> -->
+  </div>
+
+
+  <footer id="contact" class="black card ">
+    <p>Tejas Patil</p> 
+    <div>
+      <i class="fa fa-envelope"></i>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tejas821999@gmail.com" target="_blank">tejas821999@gmail.com</a>
+
+      <i class="fa fa-linkedin-square"></i>
+      <a href="https://www.linkedin.com/in/patil-tejas/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{% extends "index.html"%}
+
+
+{% block content %}
+
+{% for image in image_list %}
+    <div class="box zone"><img src={{image}}></div>
+{% endfor %}
+
+{% endblock %}

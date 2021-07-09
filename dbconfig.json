@@ -1,0 +1,7 @@
+{
+"mysql_host": "localhost",
+"mysql_user": "your user",
+"mysql_password": "your password",
+"mysql_db": "your MySQL database name"
+}
+
